@@ -1,0 +1,7 @@
+Column/Collection Name,Data Type,Description
+id,UUID,Unique identifier for the outbox event
+aggregate_type,String,Type of aggregate root (e.g., Order, Customer)
+aggregate_id,UUID,The aggregate root instance
+type,String,Type of event (e.g., OrderPlaced, OrderCancelled)
+payload,JSON,Event data serialized as JSON
+timestamp,Timestamp,The time when the event was created
