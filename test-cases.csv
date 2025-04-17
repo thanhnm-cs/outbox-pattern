@@ -1,0 +1,6 @@
+Test Case ID,Test Description,Expected Result
+OT001,Ensure main table insert successfully,Main collection has a new record, we can coll.find() successfully
+OT002,Verify outbox entry insertion after message is successfully processed,Outbox entry is inserted and returns successfully when FindOne
+OT003,Ensure outbox document is deleted,FindOne should return zero
+OT004,Ensure consumers can successfully read message,Inserted n messages, should receive n messages
+OT005,Validate message order consistency in outbox,N messages are processed in the correct order with one consumer or multiple consumers
