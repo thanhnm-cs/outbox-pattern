@@ -1,0 +1,9 @@
+Component,Note,Justification
+Simple UI,Serverless cloud run,Best cost effective in long run, with scale down to 0, and integration easily with cloud technologies, security is also top factor with separated service account
+Simple UI Backend,,
+Consumer or Microservice 2,Golang,Deploy on GKE or others, using helm
+Kafka Cluster,Strimzi Kafka Operator,Hosted on GKE, combination of deployment and statefulset
+Kafka Connect,Strimzi Kafka Operator,
+UI for kafka,,
+(Optional) Conduktor,,
+(Optional) PostgreSQL,Percona PostgreSQL Operator,

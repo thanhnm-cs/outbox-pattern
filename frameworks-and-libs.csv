@@ -1,0 +1,9 @@
+Language,Library/Tool,Platform
+Python,FastAPI,Serverless Cloud Run
+Python,PyMongo,
+Python,PyTest,
+Golang,github.com/segmentio/kafka-go,GKE
+Golang,go.opentelemetry.io/otel,
+Kafka Connect,Strimzi Kafka,
+Kafka Connect,io.debezium.connector.mongodb.transforms.outbox.MongoEventRouter,
+Kafka Connect,io.debezium.connector.mongodb.MongoDbConnector,
