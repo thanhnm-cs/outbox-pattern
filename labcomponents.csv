@@ -1,0 +1,14 @@
+Layer,Component,Note
+Microservice,Simple UI,Python
+Microservice,Simple UI Backend,Python
+Microservice,Consumer or Microservice 2,Golang
+Infrastructure,Kubernetes,Deploying on GKE
+Infrastructure,MongoDB,MongoDB Atlas
+Infrastructure,Kafka Cluster,Strimzi Kafka Operator
+Infrastructure,Kafka Connect,-
+Infrastructure,Optional Conduktor,UI for Kafka
+Infrastructure,Optional PostgreSQL,Percona PostgreSQL Operator
+Infrastructure,Optional ELK or O2,Using O2 due to promising compression ratio and big data adaptation
+Infrastructure,Optional Open Telemetry Stack,For end-to-end tracing
+Infrastructure,Optional Prometheus/Victoriametric Stack,-
+Infrastructure,Optional Keda Scaler,Performance scaling in production
